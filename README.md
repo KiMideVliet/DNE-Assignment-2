@@ -12,26 +12,25 @@ Methodological Approach
 
 • HRnet32 pose estimation keypoint generation:
 
-    A trained HRNet32 CNN (trained on the CoCo dataset) is applied to the videos, generating sequences of keypoints. For each exercise (4 different exercises in total: push-up, pull-up, sit-up, and lunge), there are 3 amateur videos representing different levels of execution: bad, good, and almost perfect. These videos help improve the accuracy of the execution assessment. The input data undergoes preprocessing, including resizing, normalization, color conversion, centering, and cropping.
+A trained HRNet32 CNN (trained on the CoCo dataset) is applied to the videos, generating sequences of keypoints. For each exercise (4 different exercises in total: push-up, pull-up, sit-up, and lunge), there are 3 amateur videos representing different levels of execution: bad, good, and almost perfect. These videos help improve the accuracy of the execution assessment. The input data undergoes preprocessing, including resizing, normalization, color conversion, centering, and cropping.
 
 • Postprocessing:
 
-    The normalisation of the generated sequences is done relative to the torso. This normalization helps account for variations in scale, position, and orientation.
+The normalisation of the generated sequences is done relative to the torso. This normalization helps account for variations in scale, position, and orientation.
 
 • Evaluation metric 
 
-    Dynamic Time Warping (DTW) compares the pose estimations from two videos by measuring the similarity of joint movements across time and expresses this via the distance metric.
+Dynamic Time Warping (DTW) compares the pose estimations from two videos by measuring the similarity of joint movements across time and expresses this via the distance metric.
     
 All code is in the notebook Assignment2.
 
-Resources
-
-    • Data: 
-    4 videos from fitness instructors/physicians to serve as "truths": one perfectly performed push-up, sit-up, pull-up and lunge.
-    4 videos from amateurs: one badly performed push-up, sit-up, pull-up and lunge.
-    4 videos from amateurs: one good performed push-up, sit-up, pull-up and lunge.
-    4 videos from another fitness professional: one almost perfectly performed push-up, sit-up, pull-up and lunge.
+Resources  
+• Data:  
+    4 videos from fitness instructors/physicians to serve as "truths": one perfectly performed push-up, sit-up, pull-up and lunge.  
+    4 videos from amateurs: one badly performed push-up, sit-up, pull-up and lunge.  
+    4 videos from amateurs: one good performed push-up, sit-up, pull-up and lunge.  
+    4 videos from another fitness professional: one almost perfectly performed push-up, sit-up, pull-up and lunge.  
         
-    • Pretrained model of HRnet32 (trained on CoCo dataset)
+• Pretrained model of HRnet32 (trained on CoCo dataset)
     
 
