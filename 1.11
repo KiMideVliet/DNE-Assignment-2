@@ -1,0 +1,13 @@
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: tensorboard in c:\users\michel.marien_icarew\appdata\roaming\python\python311\site-packages (2.19.0)
+Requirement already satisfied: absl-py>=0.4 in c:\users\michel.marien_icarew\appdata\roaming\python\python311\site-packages (from tensorboard) (2.1.0)
+Requirement already satisfied: grpcio>=1.48.2 in c:\users\michel.marien_icarew\appdata\roaming\python\python311\site-packages (from tensorboard) (1.71.0)
+Requirement already satisfied: markdown>=2.6.8 in c:\programdata\anaconda3\lib\site-packages (from tensorboard) (3.4.1)
+Requirement already satisfied: numpy>=1.12.0 in c:\programdata\anaconda3\lib\site-packages (from tensorboard) (1.26.4)
+Requirement already satisfied: packaging in c:\programdata\anaconda3\lib\site-packages (from tensorboard) (23.1)
+Requirement already satisfied: protobuf!=4.24.0,>=3.19.6 in c:\users\michel.marien_icarew\appdata\roaming\python\python311\site-packages (from tensorboard) (5.26.1)
+Requirement already satisfied: setuptools>=41.0.0 in c:\users\michel.marien_icarew\appdata\roaming\python\python311\site-packages (from tensorboard) (65.5.0)
+Requirement already satisfied: six>1.9 in c:\programdata\anaconda3\lib\site-packages (from tensorboard) (1.16.0)
+Requirement already satisfied: tensorboard-data-server<0.8.0,>=0.7.0 in c:\users\michel.marien_icarew\appdata\roaming\python\python311\site-packages (from tensorboard) (0.7.2)
+Requirement already satisfied: werkzeug>=1.0.1 in c:\programdata\anaconda3\lib\site-packages (from tensorboard) (2.2.3)
+Requirement already satisfied: MarkupSafe>=2.1.1 in c:\programdata\anaconda3\lib\site-packages (from werkzeug>=1.0.1->tensorboard) (2.1.3)
