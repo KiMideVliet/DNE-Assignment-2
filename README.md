@@ -23,7 +23,7 @@ The normalisation of the generated sequences is done relative to the torso. This
 Dynamic Time Warping (DTW) and resampled DTW compare the pose estimations from two videos by measuring the similarity of joint movements across time and express this via the distance metric.
 Kruskal–Wallis is used to test for statistical significance of the results.
     
-All code is in the notebook Assignment2.
+All code is in the notebook FinalVersion.
 
 Resources  
 • Data:  
